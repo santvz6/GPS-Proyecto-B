@@ -47,15 +47,20 @@ El proyecto se desarrolla bajo el rol de una consultora/empresa tecnológica esp
 GPS-Proyecto-B/
 ├── .gitignore
 ├── README.md
-├── docs/                # Documentación del proyecto, memorias y entregables
-│   ├── planning/        # Documentos de planificación (Punto 1: Canvas, RF, RNF...)
-│   └── actas/           # Actas de reuniones de equipo y retrospectivas Scrum
-├── res/                 # Enunciados, diapositivas y plantillas oficiales
+├── docs/                      # Documentación modular del proyecto
+│   ├── README.md              # Índice de entregables
+│   ├── 01-requisitos/         # Punto 1: Objetivos, Canvas, RF, RNF, Restricciones
+│   ├── 02-costes/             # Punto 2: Estimación de costes y esfuerzo
+│   ├── 03-riesgos/            # Punto 3: Análisis y gestión de riesgos
+│   ├── 04-rrhh/               # Punto 4: Estructura de equipo
+│   ├── 05-agenda/             # Punto 5: WBS, precedencias y MS Project
+│   └── actas/                 # Registro de reuniones y decisiones
+├── res/                       # Materiales y plantillas oficiales del profesorado
 │   ├── 1_Funcionalidades.pdf
 │   ├── CANVAS SCRUM Y ESTRUCTURA ORGANIZATIVA.pdf
 │   ├── Enunciado_Practicas_GP.pdf
 │   └── planning.doc
-└── src/                 # Prototipos, código de soporte y pipelines técnicos (si aplica)
+└── src/                       # Prototipos, scripts y pipelines técnicos
 ```
 
 ---
